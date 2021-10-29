@@ -1,0 +1,22 @@
+.topic-container {
+  border: 1px solid rgb(207, 213, 236);
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(223, 230, 255);
+  max-width: 300px;
+}
+
+.no-topic {
+  border: 1px solid rgb(207, 213, 236);
+  background-color: rgb(209, 209, 209);
+}
+
+.topic-title {
+  margin-bottom: 10px;
+  color: rgb(104, 104, 104);
+}
+
+.child-topics-container {
+  display: flex;
+  flex-wrap: wrap;
+}

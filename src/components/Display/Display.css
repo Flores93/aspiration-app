@@ -1,0 +1,9 @@
+.topics-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.topics-container > * {
+  margin: 1em 0;
+}

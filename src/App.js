@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
 
-function App() {
+import Display from "./components/Display";
+import Searchbar from "./components/Searchbar";
+
+import "./App.css";
+
+const App = () => {
+  const [searchValue, setsearchValue] = useState("react");
+
+  const onSearch = (e, value, setInputValue) => {
+    e.preventDefault();
+    if (value) {
+      setsearchValue(value);
+      setInputValue("");
+    } else {
+      alert("I need a value to perform a search!! :(");
+    }
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1>GitHub Topic Explorer</h1>
       </header>
+      <Searchbar onSearch={onSearch} initSearchValue={"react"} />
+      <h2>
+        Topic: <span className="current-topic-title">{searchValue}</span>
+      </h2>
+      <hr />
+      <Display searchValue={searchValue} setsearchValue={setsearchValue} />
     </div>
   );
-}
+};
 
 export default App;

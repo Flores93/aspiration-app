@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Searchbar Component Test should show the component correctly 1`] = `
+<nav>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      className="search-bar"
+      onChange={[Function]}
+      type="search"
+      value="React"
+    />
+    <button
+      className="search-button"
+      type="submit"
+    >
+      Search
+    </button>
+  </form>
+</nav>
+`;

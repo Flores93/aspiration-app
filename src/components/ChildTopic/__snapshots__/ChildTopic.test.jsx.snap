@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Child Topic Component Test Should show the component correctly 1`] = `
+<div
+  className="child-topic"
+  onClick={[Function]}
+>
+  <b>
+    Pizza
+    : 
+  </b>
+  <span>
+     
+    9999
+     
+    <i
+      className="fa fa-star mr-4 star-stargazers"
+    />
+  </span>
+</div>
+`;

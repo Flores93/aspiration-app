@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Topic Component Tests Should show the component correctly 1`] = `
+<div
+  className="topic-container false"
+>
+  <div
+    className="topic-title"
+  >
+    <h3>
+      /dummy/path
+       - 
+      <i
+        className="fa fa-star star-stargazers"
+      />
+      <span
+        style={
+          Object {
+            "color": "grey",
+          }
+        }
+      >
+        3842
+         
+      </span>
+    </h3>
+  </div>
+  <div>
+     
+    <p
+      className="topic-title"
+    >
+      Related Topics:
+    </p>
+    <div
+      className="child-topics-container"
+    >
+      <div
+        className="child-topic"
+        onClick={[Function]}
+      >
+        <b>
+          faketopic1
+          : 
+        </b>
+        <span>
+           
+          121
+           
+          <i
+            className="fa fa-star mr-4 star-stargazers"
+          />
+        </span>
+      </div>
+      <div
+        className="child-topic"
+        onClick={[Function]}
+      >
+        <b>
+          faketopic2
+          : 
+        </b>
+        <span>
+           
+          33
+           
+          <i
+            className="fa fa-star mr-4 star-stargazers"
+          />
+        </span>
+      </div>
+      <div
+        className="child-topic"
+        onClick={[Function]}
+      >
+        <b>
+          faketopic3
+          : 
+        </b>
+        <span>
+           
+          923
+           
+          <i
+            className="fa fa-star mr-4 star-stargazers"
+          />
+        </span>
+      </div>
+      <div
+        className="child-topic"
+        onClick={[Function]}
+      >
+        <b>
+          faketopic4
+          : 
+        </b>
+        <span>
+           
+          77
+           
+          <i
+            className="fa fa-star mr-4 star-stargazers"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
