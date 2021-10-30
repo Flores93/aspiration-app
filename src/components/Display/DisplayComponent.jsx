@@ -18,7 +18,7 @@ const Display = ({ searchValue, setsearchValue }) => {
       </p>
     );
 
-  if (error) return `Something went wrong: ${error}`;
+  if (error) return `${error || "Something went wrong."}`;
 
   return (
     <main>
