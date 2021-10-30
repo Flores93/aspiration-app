@@ -1,23 +1,40 @@
-# Getting Started with Create React App
+# Github Topic Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an app to find specific topics in github and its related topics.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+Use the package manager [yarn](https://yarnpkg.com) to install required dependencies.
 
-### `yarn start`
+```bash
+yarn
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Usage
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+In the `.env` file you should put your own access token from GitHub.
 
-### `yarn test`
+```javascript
+REACT_APP_GIT_TOKEN = "your_own_access_token";
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Follow the instructions of [Creating a personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) and set the following scopes, or permissions:.
+
+![Scopes/permissions](https://raw.githubusercontent.com/Flores93/aspiration-app/master/tokenpermissions.png)
+
+# Run the project
+
+```bash
+
+# run the project'
+yarn start
+
+# run all unit tests
+yarn test a
+
+```
+
+## =============
 
 ### `yarn build`
 
