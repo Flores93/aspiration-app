@@ -34,8 +34,6 @@ yarn test a
 
 ```
 
-## =============
-
 ### `yarn build`
 
 Builds the app for production to the `build` folder.\
